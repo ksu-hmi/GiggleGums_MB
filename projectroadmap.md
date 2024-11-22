@@ -5,3 +5,4 @@ Sprint 2
  Commit a minimum of 6 code changes of significant size
  Updating Project roadmap as our tasks are completed - TBD
  Update quiz questions
+ Update the main page

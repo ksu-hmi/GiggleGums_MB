@@ -1,4 +1,4 @@
-Sprint 2
+Sprint 2 & 3
 
  Making necessary updates with commit messages within the designated organization
  Clone your project repository to your GitHub Desktop

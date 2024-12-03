@@ -19,7 +19,7 @@ class QuizApp:
     def create_widgets(self):
         self.qs_label = ttk.Label(
             self.root,
-            text="Welcome to the Quiz App!",
+            text="Welcome to the Germ Game!",
             font=("Helvetica", 20),
             wraplength=700,
             padding=10
@@ -90,9 +90,9 @@ class QuizApp:
 
         if selected_choice["is_correct"]:
             self.score += 1
-            self.feedback_label.config(text="Correct!", foreground="blue")
+            self.feedback_label.config(text="Correct!", foreground="green")
         else:
-            self.feedback_label.config(text="Incorrect!", foreground="green")
+            self.feedback_label.config(text="Incorrect!", foreground="blue")
 
         for btn in buttons:
             btn.config(state="disabled")
